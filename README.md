@@ -40,6 +40,8 @@ python -m venv .venv
 
 Place Windows x64 builds of `ffmpeg.exe`, `ffprobe.exe`, and `deno.exe` in `tools`. The bundled FFmpeg must include libx264, libvpx, libopus, libvorbis, and libmp3lame.
 
+The packaged Gyan FFmpeg 7.0.2 full build points to [this FFmpeg source revision](https://github.com/FFmpeg/FFmpeg/tree/e3a61e9103). See `THIRD_PARTY_NOTICES.md` for the build release and source-distribution note.
+
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts\build.ps1
 ```
